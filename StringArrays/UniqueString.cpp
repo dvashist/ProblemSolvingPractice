@@ -17,8 +17,8 @@ bool isUnique(string word){
 }
 
 int main(){
-    string str = "works";
-    string str2 = "does not work";
+    string str = "special";
+    string str2 = "general";
     cout<<"The result of the \""<<str<<"\" : "<< isUnique(str)<<endl;
     cout<<"The result of the \""<<str2<<"\" : "<< isUnique(str2)<<endl;
 }
